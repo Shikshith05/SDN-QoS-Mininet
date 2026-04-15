@@ -51,3 +51,20 @@ h1 iperf -u -c h2 -t 5
   * Low priority traffic (other protocols)
 
 This demonstrates that the controller is correctly applying QoS by prioritizing UDP traffic over other types.
+
+## Proof of Execution
+
+### Controller Start
+![Controller Start](CONTROLLERSTART.jpeg)
+
+### Mininet Topology
+![Topology](TOPOLOGY.jpeg)
+
+### Ping Test (Low Priority Traffic)
+![Ping Test](PINGTEST.jpeg)
+
+### Iperf Test (High Priority Traffic)
+![Iperf Test](IPERF.jpeg)
+
+### Controller Logs
+![Controller Logs](LOGS.jpeg)
