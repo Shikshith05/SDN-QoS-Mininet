@@ -68,3 +68,9 @@ This demonstrates that the controller is correctly applying QoS by prioritizing 
 
 ### Controller Logs
 ![Controller Logs](LOGS.jpeg)
+
+### Flow Table Entries
+
+The flow table in the switch shows installed rules:
+
+![Flow Table](flowtable.jpeg)
